@@ -5,12 +5,15 @@ Classifier of student free text comments from class evaluations
 
 2. In terminal,
 
+```
 pip install ./dist/en_model-1.0.0.tar.gz
+```
 
 3. Use in python script
 
 
-`import spacy
+```
+import spacy
 
 nlp = spacy.load('en_model')
 doc = nlp(u"As New Zealand Courts Tech Talent, Isolation Becomes a Draw")
@@ -19,4 +22,5 @@ doc = nlp(u"As New Zealand Courts Tech Talent, Isolation Becomes a Draw")
 print([(ent.text, ent.label_) for ent in doc.ents])
 
 # Text classification
-print(doc.cats)`
+print(doc.cats)
+```
