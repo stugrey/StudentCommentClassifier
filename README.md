@@ -1,5 +1,12 @@
-# StudentCommentClassifier
-Classifier of student free text comments from class evaluations
+# Student Comment Classifier
+
+Classifier of student free text comments from class evaluations. The classifier has been trained on mdoule evaluation data from the University of Strathclyde and the University of Warwick. The classifier is available as a stand alone Python package for you to use, just follow the attached instructions.
+
+If you find this classifier useful, pleae let me know at stuart.grey@strath.ac.uk
+
+For more information on the Student Voice class evaluation system from which this classifer comes, please email stuart@studentvoice.app or visit www.studentvoice.app
+
+# Usage Instructions
 
 1. Clone the repository
 
